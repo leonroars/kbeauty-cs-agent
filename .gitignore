@@ -1,0 +1,37 @@
+# 환경 변수 — API 키가 절대 커밋되지 않도록
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# 로컬 데이터베이스 / 실행 산출물
+*.db
+*.sqlite3
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+
+# Claude Code 로컬 설정 (프로젝트 공용 설정은 별도 커밋)
+.claude/settings.local.json
